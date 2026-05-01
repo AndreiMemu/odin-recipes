@@ -22,24 +22,6 @@ body{
 
 .title #subtitle{
     margin-top: 40px;
-    text-align: left;
-}
-
-
-.recipes .card{
-    display: inline-block;
-    margin: 4px;
-    background-color: #db9b84;
-    height: 150px;
-    padding: 4px;
-    border: 1px solid #C0522A;
-    border-radius: 10px;
-    text-align: center;
-    color: #8B3318;
-}
-
-a:hover{
-    color:#2C1A0E;
 }
 
 hr{
@@ -51,14 +33,37 @@ hr{
     font-size: 12px;
 }
 
+
+.recipes .card{
+    display: inline-block;
+    margin: 4px;
+    background-color: #db9b84;
+    width: 150px;
+    height: 150px;
+    padding: 4px;
+    border: 1px solid #C0522A;
+    border-radius: 10px;
+    text-align: center;
+    color: #8B3318;
+    vertical-align: top;
+}
+
+.recipes{
+    margin-left: 20px;
+}
+
+a:hover{
+    color:#2C1A0E;
+}
+
+
 .card .recipe a{
     border-top: 1px solid #C0522A;
     padding: 2px;
+    
 }
 
 .card .recipe p{
     font-size: 40px;
     margin: 8px auto;
-    text-align: center;
-    background-color:
 }
