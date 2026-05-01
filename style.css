@@ -22,7 +22,7 @@ body{
 
 .title #subtitle{
     margin-top: 40px;
-
+    text-align: left;
 }
 
 
@@ -30,7 +30,7 @@ body{
     display: inline-block;
     margin: 4px;
     background-color: #db9b84;
-    height: 100px;
+    height: 150px;
     padding: 4px;
     border: 1px solid #C0522A;
     border-radius: 10px;
@@ -49,4 +49,16 @@ hr{
 #recipes{
     color: #c2844a;
     font-size: 12px;
+}
+
+.card .recipe a{
+    border-top: 1px solid #C0522A;
+    padding: 2px;
+}
+
+.card .recipe p{
+    font-size: 40px;
+    margin: 8px auto;
+    text-align: center;
+    background-color:
 }
